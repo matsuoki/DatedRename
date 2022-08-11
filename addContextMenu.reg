@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Folder\shell\AddLatestModDateToFolder]
+@="最終更新日でリネーム★★★"
+
+[HKEY_CLASSES_ROOT\Folder\shell\AddLatestModDateToFolder\command]
+@="\"wscript.exe\" \"C:\\tools\\DatedRename\\ファイルに日付を付ける君.vbs\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\*\shell\AddLatestModDateToFilename]
+@="最終更新日をでリネーム★★★"
+
+[HKEY_CLASSES_ROOT\*\shell\AddLatestModDateToFilename\command]
+@="\"wscript.exe\" \"C:\\tools\\DatedRename\\ファイルに日付を付ける君.vbs\" \"%1\""
+
